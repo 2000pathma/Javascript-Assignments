@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>FormGet</title>
+</head>
+<body>
+<label>Username: </label>
+<input type="text" id="field1" value="" placeholder="username"><br><br>
+<label>Password: </label>
+<input type="password" id="field2" value="" placeholder="********"><br><br>
+
+<button onclick="myForm()">Submit</button>
+
+<script>
+function myForm() {
+   var a=document.getElementById("field1").value;
+   console.log("Username :",a);
+   var b=document.getElementById("field2").value;
+   console.log("Password:",b);
+}
+</script>
+
+</body>
+</html>
